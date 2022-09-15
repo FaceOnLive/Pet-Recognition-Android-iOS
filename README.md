@@ -7,6 +7,17 @@
 <a target="_blank" href="skype:demidemi1125?chat"><img src="https://img.shields.io/badge/skype-demidemi1125-blue.svg?logo=skype " alt="www.faceonlive.com"></a>
 </p>
 
+## :muscle:  Partnership / Cooperation / Project Discussion
+&emsp;<a href="mailto:contact@faceonlive.com?subject=[GitHub]%20Pet%20Recognition%20Mobile"><img src="https://img.shields.io/badge/mail-%23DD0031.svg?&style=flat&logo=gmail&logoColor=white"  height="64"/></a>
+</br>
+</br>
+
+## :tada:  Try It Yourself
+<a href="https://drive.google.com/file/d/1_ACpAdHIDouMXaI2YogApbPjiYH8br-4/view?usp=sharing" target="_blank">
+  <img alt="Get it on Google Play" src="https://goo.gl/cR2qQH" height="100"/>
+</a>
+</br>
+</br>
 
 Please check our portfolio website. https://portfolio.faceonlive.com
 
