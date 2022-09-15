@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ttv.petrecog.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="160dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"
+            android:text="Register" />
+
+        <Button
+            android:id="@+id/btnVerify"
+            android:layout_width="160dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/btnRegister"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"
+            android:text="Check In" />
+
+        <Button
+            android:id="@+id/btnUser"
+            android:layout_width="160dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/btnVerify"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:text="Dogs" />
+
+
+<!--       <TextView-->
+<!--           android:id="@+id/txtThreshold"-->
+<!--           android:layout_width="wrap_content"-->
+<!--           android:layout_height="50dp"-->
+<!--           android:layout_marginLeft="20dp"-->
+<!--           android:layout_marginBottom="30dp"-->
+<!--           android:layout_alignParentBottom="true"-->
+<!--           android:gravity="center_vertical"-->
+<!--           android:textSize="20dp"-->
+<!--           android:text="Threshold: 83.0">-->
+<!--       </TextView>-->
+
+<!--        <Button-->
+<!--            android:id="@+id/btnEditThreshold"-->
+<!--            android:layout_width="120dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            android:layout_marginBottom="30dp"-->
+<!--            android:layout_toRightOf="@+id/txtThreshold"-->
+<!--            android:layout_alignParentBottom="true"-->
+<!--            android:text="Edit" />-->
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

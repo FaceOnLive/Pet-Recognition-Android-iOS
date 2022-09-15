@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ttv.petrecog.CameraActivity">
+
+    <FrameLayout
+        android:id="@+id/cameraOverlayLayout"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <io.fotoapparat.view.CameraView
+            android:id="@+id/camera_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:visibility="gone"
+            tools:visibility="visible" >
+
+        </io.fotoapparat.view.CameraView>
+
+        <com.ttv.petrecog.FaceRectView
+            android:id="@+id/rectanglesView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/btn_verify"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:text="Verify"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/cameraOverlayLayout" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
